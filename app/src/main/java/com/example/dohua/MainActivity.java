@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
         Drawable fram11 = getResources().getDrawable(R.drawable.icon_loading12);
         animationDrawable.addFrame(fram, 80);
 
-
         findViewById(R.id.btn_start).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
